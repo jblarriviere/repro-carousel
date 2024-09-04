@@ -4,6 +4,7 @@
 
 - Install packages with `yarn` or `npm install`.
 - Run `npx expo run:ios` and/or `npx expo run:android`. Requires native toolchains to be installed.
-- Replace `onBeginDrag` param of `useAnimatedScrollHandler` by any of the callback defined above.
-- The `working` ones are called just fine, when the `crashing` ones generate an exception
+- Comment one of the 2 lines in `onBeginDrag` param of `useAnimatedScrollHandler` to test one of the behaviours
+- The `working` is fine no matter wether new arch is enabled or not
+- The `crashing` ones generate an exception when new arch is enabled
 
